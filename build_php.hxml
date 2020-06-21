@@ -1,0 +1,5 @@
+--define php-lib=php
+--define real-position
+--main php_minify.Program
+--php lib
+share/build.hxml

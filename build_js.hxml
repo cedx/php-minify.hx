@@ -1,0 +1,11 @@
+--define js-es=6
+--library hxnodejs
+share/build.hxml
+
+--each
+--dce full
+--js bin/which.js
+--main php_minify.Program
+
+--next
+--js lib/js/php_minify.js

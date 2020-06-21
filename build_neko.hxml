@@ -1,0 +1,4 @@
+--dce full
+--main php_minify.Program
+--neko run.n
+share/build.hxml

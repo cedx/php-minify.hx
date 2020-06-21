@@ -1,0 +1,10 @@
+--class-path src
+--define analyzer-optimize
+--library thenshim
+--library tink_cli
+
+php_minify.FastTransformer
+php_minify.Minifier
+php_minify.SafeTransformer
+php_minify.Transformer
+php_minify.TransformMode
