@@ -1,0 +1,12 @@
+{
+	"classPath": "src/",
+	"contributors": ["cedx"],
+	"dependencies": {"thenshim": "1.1.0", "tink_cli": "0.5.1"},
+	"description": "Minify PHP source code by removing comments and whitespace.",
+	"license": "MIT",
+	"name": "php_minify",
+	"releasenote": "Updated the PHP dependencies.",
+	"tags": ["build", "compress", "cross", "minify", "php"],
+	"url": "https://docs.belin.io/php-minify.hx",
+	"version": "1.0.0"
+}

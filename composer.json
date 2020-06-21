@@ -1,0 +1,36 @@
+{
+	"description": "Minify PHP source code by removing comments and whitespace.",
+	"homepage": "https://docs.belin.io/php-minify.hx",
+	"license": "MIT",
+	"name": "cedx/php-minify.hx",
+	"type": "library",
+	"version": "1.0.0",
+	"authors": [
+		{"email": "cedric@belin.io", "homepage": "https://belin.io", "name": "Cédric Belin"}
+	],
+	"autoload": {
+		"psr-4": {"php_minify\\": "lib/php/php_minify/"}
+	},
+	"config": {
+		"optimize-autoloader": true
+	},
+	"funding": [
+		{"type": "patreon", "url": "https://www.patreon.com/cedx"}
+	],
+	"keywords": [
+		"build",
+		"compress",
+		"minify",
+		"php",
+		"robo",
+		"task"
+	],
+	"require": {
+		"php": ">=7.4.0",
+		"cedx/haxe": "^1.1.0"
+	},
+	"support": {
+		"docs": "https://api.belin.io/php-minify.hx",
+		"issues": "https://git.belin.io/cedx/php-minify.hx/issues"
+	}
+}
